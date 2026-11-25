@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tally-ai"
 description = "Track every AI limit and dollar, locally, before the wall."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "AkuchiS" }]
 keywords = ["ai", "tokens", "usage", "cost", "rate-limit", "claude", "chatgpt", "codex", "cursor", "local-first"]

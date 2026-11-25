@@ -8,7 +8,7 @@ if command -v pipx >/dev/null 2>&1; then
 elif command -v pip3 >/dev/null 2>&1; then
   pip3 install --user --upgrade "git+https://github.com/AkuchiS/tally"
 else
-  echo "Need pipx or pip3. Install Python 3.9+ first." >&2; exit 1
+  echo "Need pipx or pip3. Install Python 3.10+ first." >&2; exit 1
 fi
 
 echo

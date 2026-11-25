@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/AkuchiS/tally/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/AkuchiS/tally/actions/workflows/ci.yml/badge.svg"></a>
-  <img alt="Python 3.9+" src="https://img.shields.io/badge/python-3.9%2B-blue">
+  <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-blue">
   <img alt="No dependencies" src="https://img.shields.io/badge/dependencies-none-brightgreen">
   <img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-lightgrey">
 </p>
@@ -40,7 +40,7 @@ pipx install "git+https://github.com/AkuchiS/tally"
 pip install .
 ```
 
-Needs Python 3.9+ and nothing else.
+Needs Python 3.10+ and nothing else.
 
 ## Use
 
