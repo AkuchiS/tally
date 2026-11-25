@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tally-ai"
+description = "Track every AI limit and dollar, locally, before the wall."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "AkuchiS" }]
+keywords = ["ai", "tokens", "usage", "cost", "rate-limit", "claude", "chatgpt", "codex", "cursor", "local-first"]
+dynamic = ["version"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/AkuchiS/tally"
+Source = "https://github.com/AkuchiS/tally"
+
+[project.scripts]
+tally = "tally.cli:main"
+
+[tool.setuptools]
+packages = ["tally"]
+
+[tool.setuptools.dynamic]
+version = { attr = "tally.__version__" }

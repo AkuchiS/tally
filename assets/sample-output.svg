@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" role="img" aria-labelledby="t d">
+  <title id="t">Sample tally status output</title>
+  <desc id="d">A terminal showing sample tally output: spend for today, week and month, and usage gauges for a Claude and a Codex subscription. All numbers are made up.</desc>
+  <rect width="860" height="400" rx="14" fill="#0f141a"/>
+  <rect width="860" height="38" rx="14" fill="#1a222c"/><rect y="24" width="860" height="14" fill="#1a222c"/>
+  <circle cx="24" cy="19" r="6" fill="#f87171"/><circle cx="46" cy="19" r="6" fill="#fbbf24"/><circle cx="68" cy="19" r="6" fill="#34d399"/>
+  <text x="430" y="24" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="13" fill="#7d8b9b">$ tally status   (sample numbers)</text>
+  <g font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#d6dee8">
+    <text x="28" y="76">tally · spend  today $4.20 · week $31.80 · month $118.50</text>
+    <text x="28" y="116" fill="#f3f6fa">claude:max20  [claude/max20]</text>
+    <text x="52" y="148">5-hour session</text>
+    <text x="52" y="184">Weekly</text>
+    <text x="52" y="220">Weekly (Opus)</text>
+    <text x="28" y="268" fill="#f3f6fa">codex:pro  [codex/pro]</text>
+    <text x="52" y="300">Weekly</text>
+  </g>
+  <g font-family="Menlo, Consolas, monospace" font-size="15" fill="#9aa8b8">
+    <text x="640" y="148">78%  resets 1h42m</text>
+    <text x="640" y="184">41%  resets 3d 4h</text>
+    <text x="640" y="220">23%  resets 3d 4h</text>
+    <text x="640" y="300">63%  resets 5d 2h</text>
+  </g>
+  <g>
+    <rect x="260" y="134" width="360" height="14" rx="7" fill="#232d39"/><rect x="260" y="134" width="281" height="14" rx="7" fill="#fbbf24"/>
+    <rect x="260" y="170" width="360" height="14" rx="7" fill="#232d39"/><rect x="260" y="170" width="148" height="14" rx="7" fill="#34d399"/>
+    <rect x="260" y="206" width="360" height="14" rx="7" fill="#232d39"/><rect x="260" y="206" width="83" height="14" rx="7" fill="#34d399"/>
+    <rect x="260" y="286" width="360" height="14" rx="7" fill="#232d39"/><rect x="260" y="286" width="227" height="14" rx="7" fill="#34d399"/>
+  </g>
+  <text x="28" y="360" font-family="Menlo, Consolas, monospace" font-size="15" fill="#fbbf24">⚠ 1 approaching a wall: claude:max20 — 5-hour session at 78%</text>
+</svg>
